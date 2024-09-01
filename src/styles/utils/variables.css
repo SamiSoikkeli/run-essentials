@@ -1,0 +1,70 @@
+:root {
+	--color-white: #ffffff;
+	--color-black: #202020;
+	--color-grey: #d0d0d0;
+	--color-darkgrey: #606060;
+	--color-transparent: rgba(255, 255, 255, 0.3);
+	--color-blue: #0047ff;
+	--color-green: #24ff00;
+	--color-yellow: #ffd600;
+	--color-orange: #ff7a00;
+	--color-red: #ff0000;
+
+	--color-background: var(--color-white);
+	--color-text: var(--color-black);
+
+	--gutter: 1.25rem;
+	--spacing-s: 0.3rem;
+	--spacing: 0.625rem;
+	--spacing-big: 20vh;
+
+	--border: 1px solid var(--color-grey);
+	--border-w: 1px solid var(--color-white);
+	--border-b: 1px solid var(--color-text);
+
+	--font-400: "OverusedGrotesk-Roman", "Open Sans", "Helvetica Neue",
+		"Helvetica", "Arial", sans-serif;
+	--font-600: "OverusedGrotesk-SemiBold", "Open Sans", "Helvetica Neue",
+		"Helvetica", "Arial", sans-serif;
+
+	--fs-s: 1rem;
+	--lh-s: 1;
+	--ls-s: -0.1rem;
+
+	--fs-m: 2.625rem;
+	--lh-m: 1;
+	--ls-m: -0.1rem;
+
+	--fs-l: 11.875rem;
+	--lh-l: 0.8;
+	--ls-l: -0.8rem;
+
+	--fs-r: clamp(2.5rem, 0rem + 8vw, 6rem);
+
+	--fs-m--nro: 3rem;
+	--ls-m--nro: -0.15rem;
+
+	--ls-l--nro: -0.5rem;
+}
+
+[data-theme="dark"] {
+	--color-background: var(--color-black);
+	--color-text: var(--color-white);
+	--color-grey: var(--color-darkgrey);
+}
+
+@media screen and (max-width: 1290px) {
+	:root {
+		--fs-l: 8rem;
+		--lh-l: 0.8;
+		--ls-l: -0.5rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	:root {
+		--fs-l: 5rem;
+		--lh-l: 0.8;
+		--ls-l: -0.3rem;
+	}
+}

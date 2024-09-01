@@ -1,0 +1,118 @@
+---
+import "../styles/components/gallery.css";
+import run1 from '../assets/run1.png';
+import run2 from '../assets/run2.png';
+import run3 from '../assets/run3.png';
+import run4 from '../assets/run4.png';
+
+const images = [
+	{ src: run1, alt: 'Run 1' },
+	{ src: run2, alt: 'Run 2' },
+	{ src: run3, alt: 'Run 3' },
+	{ src: run4, alt: 'Run 4' },
+];
+---
+
+<section class="gallery gutter">
+    <div class="gallery__items"></div>
+    <p class="gallery__title">Run Essentials</p>
+</section>
+
+<script type="module">
+    document.addEventListener("DOMContentLoaded", () => {
+        const gallery = document.getElementById("gallery");
+        let isEnabled = false;
+        let count = 1;
+    
+        // Pass the images array as JSON directly
+        const images = JSON.parse(`
+            ${JSON.stringify(
+            [
+                { src: "{{ run1 }}", alt: 'Run 1' },
+                { src: "{{ run2 }}", alt: 'Run 2' },
+                { src: "{{ run3 }}", alt: 'Run 3' },
+                { src: "{{ run4 }}", alt: 'Run 4' }
+            ]
+            )}
+        `);
+    
+        const createImage = (event) => {
+            const galleryRect = gallery.getBoundingClientRect();
+    
+            if (
+            event.clientY >= galleryRect.top &&
+            event.clientY <= galleryRect.bottom &&
+            event.clientX >= galleryRect.left &&
+            event.clientX <= galleryRect.right
+            ) {
+            const countIndex = (count = (count + 1) % images.length);
+    
+            const image = document.createElement("img");
+            image.classList.add("gallery__item");
+            image.setAttribute("src", images[countIndex].src);
+            image.setAttribute("alt", images[countIndex].alt);
+            gallery.appendChild(image);
+    
+            const scrollY = window.scrollY;
+            const scrollX = window.scrollX;
+    
+            image.style.top = `${
+                event.clientY + scrollY - image.getBoundingClientRect().height * 16
+            }px`;
+            image.style.left = `${
+                event.clientX + scrollX - image.getBoundingClientRect().width / 2
+            }px`;
+    
+            animateImage(image);
+            }
+        };
+    
+        const randomValue = (value) => Math.floor(Math.random() * value);
+    
+        const animateImage = (image) => {
+            gsap.set(image, {
+            autoAlpha: 1,
+            yPercent: 100,
+            rotate: 0,
+            });
+    
+            gsap.timeline()
+            .to(image, {
+                duration: 1.2,
+                yPercent: 0,
+                rotate: randomValue(-10),
+                ease: "expo.out",
+            })
+            .to(image, {
+                duration: 2,
+                autoAlpha: 0,
+                yPercent: 100,
+                ease: "expo.inOut",
+                onComplete: () => {
+                gallery.removeChild(image);
+                },
+            });
+        };
+    
+        const handleMouseMove = (event) => {
+            if (!isEnabled) {
+            isEnabled = true;
+            setTimeout(() => {
+                isEnabled = false;
+            }, 170);
+            createImage(event);
+            }
+        };
+    
+        const checkScreenSize = () => {
+            if (window.innerWidth >= 768) {
+            window.addEventListener("mousemove", handleMouseMove);
+            } else {
+            window.removeEventListener("mousemove", handleMouseMove);
+            }
+        };
+    
+        checkScreenSize();
+        window.addEventListener("resize", checkScreenSize);
+        });
+</script>

@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageSeo from "../components/PageSeo.astro";
+import "../styles/pages/pace-conversion.css";
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+import paceData from "../scripts/data/paceData.json"
+
+const { paceConversionPage = {} } = Astro.props;
+paceConversionPage.title = "Pace Conversion Table — Run Essentials";
+paceConversionPage.description =
+	"Run Essentials pace conversion table.";
+---
+
+<PageSeo slot="head" page={paceConversionPage}/>
+<Layout slot="body"title={paceConversionPage.title} >
+	<Header />
+	<main>
+		<section class="hero gutter">
+            <div class="grid--2">
+                <h1 class="hero__title">Pace Conversion</h1>
+                <div class="hero__description">
+                    <p class="hero__subtitle f-600">Metric ⇄ imperial</p>
+                    <p class="hero__info">The quick way to see how fast you run in km and miles</p>
+                    <p class="hero__info">1 kilometer per hour (kph) = 0.621371192 mile per hour (mph)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="conversion">
+            <div class="conversion__header conversion__header--desktop grid--8 f-600">
+                <div>Km per hour</div>
+                <div>Miles per Hour</div>
+                <div>Mins per Km</div>
+                <div>Mins per Mile</div>
+                <div>5k</div>
+                <div>10k</div>
+                <div>Half Marathon</div>
+                <div>Marathon</div>
+            </div>
+            <div class="conversion__table">
+                <div class="conversion__header conversion__header--mobile grid--8 f-600">
+                    <div>Kph</div>
+                    <div>Mph</div>
+                    <div>Min/Km</div>
+                    <div>Min/Mile</div>
+                    <div>5k</div>
+                    <div>10k</div>
+                    <div>Half Marathon</div>
+                    <div>Marathon</div>
+                </div>
+                <div class="conversion__body">
+                    {paceData.map((pace) => (
+                        <div class="conversion__row grid--8">
+                            <div>{pace.km_per_hour}</div>
+                            <div>{pace.miles_per_hour}</div>
+                            <div>{pace.mins_per_km}</div>
+                            <div>{pace.mins_per_mile}</div>
+                            <div>{pace.five_k}</div>
+                            <div>{pace.ten_k}</div>
+                            <div>{pace.half_marathon}</div>
+                            <div>{pace.marathon}</div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+
+	</main>
+	<Footer />
+</Layout>

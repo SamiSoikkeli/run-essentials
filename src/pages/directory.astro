@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageSeo from "../components/PageSeo.astro";
+import "../styles/pages/directory.css";
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import arrowRightBlack from "../assets/arrow-right-b.svg?raw";
+
+const { directoryPage = {} } = Astro.props;
+directoryPage.title = "Directory — Run Essentials";
+directoryPage.description =
+	"Run Essentials website directory.";
+---
+
+<PageSeo slot="head" page={directoryPage}/>
+<Layout slot="body"title={directoryPage.title} >
+	<Header />
+	<main>
+		<section class="hero gutter">
+            <div class="grid--2">
+                <h1 class="hero__title">Directory</h1>
+            </div>
+        </section>
+        <section class="directory">
+            <div class="directory__item">
+                <a class="directory__cta cta grid" href="/pace-converter">
+                    <span class="directory__name">Pace Converter</span>
+                    <span class="directory__category">Converter</span>
+                    <Fragment set:html={arrowRightBlack} />
+                </a>
+            </div>
+            <div class="directory__item">
+                <a class="directory__cta cta grid" href="/pace-conversion">
+                    <span class="directory__name">Pace Conversion Table</span>
+                    <div class="directory__categories">
+                        <span class="directory__category">Converter</span>
+                        <span class="directory__category">Table</span>
+                    </div>
+                    <Fragment set:html={arrowRightBlack} />
+                </a>
+            </div>
+            <div class="directory__item">
+                <a class="directory__cta cta grid" href="/pfitzinger-calculator">
+                    <span class="directory__name">Pfitzinger Pace Calculator</span>
+                    <span class="directory__category">Calculator</span>
+                    <Fragment set:html={arrowRightBlack} />
+                </a>
+            </div>
+        </section>
+	</main>
+	<Footer />
+</Layout>

@@ -1,0 +1,117 @@
+.hero {
+	margin-top: var(--gutter);
+	margin-bottom: var(--spacing-big);
+}
+
+.hero__title {
+	font-size: var(--fs-l);
+	letter-spacing: var(--ls-l);
+	line-height: var(--lh-l);
+}
+
+.hero__description {
+	margin-top: var(--spacing-big);
+	margin-left: auto;
+	width: 15vw;
+}
+
+.hero__info:not(:last-of-type) {
+	margin-bottom: var(--spacing);
+}
+
+.conversion {
+	height: auto !important;
+	margin-bottom: var(--spacing-big);
+}
+
+.conversion__table {
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.conversion__body {
+	min-width: 40.625rem;
+}
+
+.conversion__header {
+	position: sticky;
+	top: 4.3rem;
+	padding: var(--spacing) 0;
+	background: var(--color-background);
+	text-align: center;
+	border-bottom: var(--border);
+	margin-bottom: var(--gutter);
+	z-index: 1;
+}
+
+.conversion__header--desktop {
+	display: grid;
+}
+
+.conversion__header--mobile {
+	min-width: 40.625rem;
+	display: none;
+}
+
+.conversion__row {
+	text-align: center;
+	align-items: center;
+	cursor: crosshair;
+	color: var(--color-text);
+	padding: var(--spacing) 0;
+	border-bottom: var(--border);
+	position: relative;
+	overflow: hidden;
+	transition: all 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.conversion__row::before,
+.conversion__row::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.conversion__row:hover,
+.conversion__row:active {
+	color: var(--color-background);
+}
+
+.conversion__row::before {
+	content: "";
+	background: var(--color-text);
+	transform: translate3d(0, 100%, 0);
+	transition: transform 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.conversion__row:hover::before,
+.conversion__row:active::before {
+	transform: translate3d(0, 0, 0);
+}
+
+@media screen and (max-width: 1290px) {
+	.hero__description {
+		margin-top: var(--gutter);
+	}
+}
+
+@media screen and (max-width: 40.625rem) {
+	.conversion__header--desktop {
+		display: none;
+	}
+
+	.conversion__header--mobile {
+		display: grid;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hero__description {
+		width: 100%;
+	}
+}

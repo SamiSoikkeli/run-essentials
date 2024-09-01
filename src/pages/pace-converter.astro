@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageSeo from "../components/PageSeo.astro";
+import "../styles/pages/pace-converter.css";
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import arrowRightBlack from "../assets/arrow-right-b.svg?raw";
+
+const { paceConverterPage = {} } = Astro.props;
+paceConverterPage.title = "Pace Converter — Run Essentials";
+paceConverterPage.description =
+	"Run Essentials pace converter between metric and imperial units.";
+---
+
+<PageSeo slot="head" page={paceConverterPage}/>
+<Layout slot="body"title={paceConverterPage.title} >
+	<Header />
+	<main>
+		<section class="hero gutter">
+            <div class="grid--2">
+                <h1 class="hero__title">Pace Converter</h1>
+            </div>
+        </section>
+        <section class="converter">
+			<div class="grid">
+				<div class="converter__subtitle">
+					<p class="f-600">Pace Converter</p>
+					<p class="f-400">Metric ⇄ Imperial</p>
+				</div>
+			</div>
+			<div class="converter__converter">
+				<form id="pace-converter" class="converter__form">
+					<div class="grid--2">
+						<div class="converter__unit">
+							<label for="minKm">Pace (min/km):</label>
+							<input type="text" id="minKm" placeholder="(mm:ss)" pattern="\d{1,2}:\d{2}" title="Enter time in (mm:ss) format">
+						</div>
+						<div class="converter__unit">
+							<label for="minMile">Pace (min/mile):</label>
+							<input type="text" id="minMile" placeholder="(mm:ss)" pattern="\d{1,2}:\d{2}" title="Enter time in (mm:ss) format">
+						</div>
+					</div>
+				</form>
+				<div class="grid gutter">
+					<a class="converter__cta cta flex-between" href="/pace-conversion">
+						<span>See full conversion table</span>
+						<Fragment set:html={arrowRightBlack} />
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<Footer />
+</Layout>

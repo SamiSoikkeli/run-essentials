@@ -1,0 +1,33 @@
+---
+const { page } = Astro.props;
+const title =
+	page.title || "Run Essentials";
+const description =
+	page.description ||
+	"Run Essentials, your go-to resource for all things running.";
+const keywords =
+	page.keywords || "run, essentials, calculator, pace, conversion";
+const robots = page.robots || "all";
+---
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="robots" content={robots} />
+
+	<title>{title}</title>
+
+	<meta name="title" content={title} />
+	<meta name="description" content={description} />
+	<meta name="keywords" content={keywords} />
+
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>

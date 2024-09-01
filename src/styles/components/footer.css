@@ -1,0 +1,148 @@
+@import "../utils/variables.css";
+
+.footer__item {
+	position: relative;
+	font-size: var(--fs-r);
+	letter-spacing: -0.3rem;
+	line-height: 1.2;
+	padding: 0 var(--gutter);
+	border-top: var(--border);
+	align-items: center;
+}
+
+.footer__track {
+	position: absolute;
+	top: -1px;
+	right: 0;
+	border-top: var(--border);
+	border-left: var(--border);
+	text-align: right;
+	padding-right: var(--gutter);
+}
+
+.footer__track--one {
+	height: 80.5vh;
+	width: 85vw;
+	border-top-left-radius: 24rem;
+}
+
+.footer__track--two {
+	height: 68.5vh;
+	width: 74vw;
+	border-top-left-radius: 17rem;
+}
+
+.footer__track--three {
+	height: 56.5vh;
+	width: 62vw;
+	border-top-left-radius: 10rem;
+}
+
+.footer__track--four {
+	height: 44vh;
+	width: 50vw;
+	border-top-left-radius: 4rem;
+}
+
+.footer__track--five {
+	height: 32.5vh;
+	width: 38vw;
+	border-top-left-radius: 4rem;
+}
+
+.footer__item svg {
+	margin-top: 1.6rem;
+}
+
+.footer__number {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 5rem;
+	padding-right: 2rem;
+	border-right: var(--border);
+}
+
+.footer__link {
+	position: absolute;
+	right: var(--gutter);
+	background: var(--color-background);
+	transition: all 0.3s cubic-bezier(0.5, 0.5, 0.6, 1.2);
+}
+
+.footer__cta:hover .footer__link {
+	color: var(--color-grey);
+}
+
+.footer__info {
+	position: relative;
+	margin-top: 25vh;
+	z-index: 5;
+}
+
+.footer__credit {
+	grid-column: 5 / 6;
+}
+
+.footer__copyright {
+	text-align: right;
+	grid-column: 6 / 7;
+}
+
+.footer__title {
+	font-family: var(--font-600);
+}
+
+.footer__data:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+	.footer__item {
+		overflow: hidden;
+	}
+
+	.footer__track {
+		border: none;
+	}
+
+	.footer__item svg {
+		width: 3rem;
+		margin-top: 1rem;
+	}
+
+	.footer__cta:hover .footer__link {
+		right: 5rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer__item {
+		letter-spacing: -0.15rem;
+	}
+
+	.footer__item svg {
+		display: none;
+	}
+
+	.footer__cta:hover .footer__link {
+		right: var(--gutter);
+	}
+
+	.footer__number {
+		width: 2rem;
+	}
+
+	.footer__info {
+		margin-top: 10vh;
+	}
+
+	.footer__credit {
+		grid-column: 1 / 6;
+	}
+}

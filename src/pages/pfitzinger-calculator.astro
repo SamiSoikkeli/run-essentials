@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageSeo from "../components/PageSeo.astro";
+import "../styles/pages/pfitzinger-calculator.css";
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import arrowRightBlack from "../assets/arrow-right-b.svg?raw";
+
+const { pfitzingerPage = {} } = Astro.props;
+pfitzingerPage.title = "Pfitzinger Pace Calculator — Run Essentials";
+pfitzingerPage.description =
+	"Run Essentials Pfitzinger inspired marathon training pace calculator.";
+---
+
+<PageSeo slot="head" page={pfitzingerPage}/>
+<Layout slot="body"title={pfitzingerPage.title} >
+	<Header />
+	<main>
+		<section class="hero gutter">
+            <div class="grid--2">
+                <h1 class="hero__title">Pfitzinger Pace Calculator</h1>
+            </div>
+        </section>
+
+        <section class="calculator">
+            <form id="paceCalculator">
+                <div class="grid--4">
+                    <div class="calculator__input">
+                        <label for="units">Units</label>
+                        <div id="units" class="calculator__units">
+                            <span id="metricUnit" class="calculator__unit unit active">Metric</span>
+                            /
+                            <span id="imperialUnit" class="calculator__unit unit">Imperial</span>
+                        </div>
+                    </div>
+                    <div class="calculator__input">
+                        <label for="marathonTime">Marathon Time <span class="f-400"> (hh:mm:ss)</span></label>
+                        <input type="text" id="marathonTime" placeholder="2:30:00" required>
+                    </div>
+                    <div class="calculator__input">
+                        <label for="restingHeartRate">Resting Heart Rate <span class="f-400">(bpm)</span></label>
+                        <input type="number" id="restingHeartRate" placeholder="45" required>
+                    </div>
+                    <div class="calculator__input">
+                        <label for="maxHeartRate">Max Heart Rate <span class="f-400">(bpm)</span></label>
+                        <input type="number" id="maxHeartRate" placeholder="200" required>
+                    </div>
+                </div>
+                <div class="grid--4">
+                    <button type="button" id="calculateBtn" class="calculator__cta cta flex-between">
+                        <span>Calculate</span>
+                            <Fragment set:html={arrowRightBlack} />
+                    </button>
+                </div>
+            </form>
+            <div class="calculator__categories grid--3 gutter f-600">
+                <p>Type of run</p>
+                <p>Running pace <span id="unitLabel" class="f-400">(km)</span></p>
+                <p>Heart rate range <span class="f-400">(bpm)</span></p>
+            </div>
+            <div id="results" class="calculator__results">
+                <div class="calculator__result grid--3">
+                    <h2 class="calculator__type calculator__type--recovery">Recovery Run</h2>
+                    <p class="calculator__pace"><span id="recoveryRunPace"></span></p>
+                    <p class="calculator__hr"><span id="recoveryRunHR"></span></p>
+                </div>
+                <div class="calculator__result grid--3">
+                    <h2 class="calculator__type calculator__type--aerobic">Aerobic Run</h2>
+                        <p class="calculator__pace"><span id="aerobicRunPace"></span></p>
+                        <p class="calculator__hr"><span id="aerobicRunHR"></span></p>
+                </div>
+                <div class="calculator__result grid--3">
+                    <h2 class="calculator__type calculator__type--long">Long Run</h2>
+                        <p class="calculator__pace"><span id="longRunPace"></span></p>
+                        <p class="calculator__hr"><span id="longRunHR"></span></p>
+                </div>
+                <div class="calculator__result grid--3">
+                    <h2 class="calculator__type calculator__type--marathon">Marathon</h2>
+                        <p class="calculator__pace"><span id="marathonPace"></span></p>
+                        <p class="calculator__hr"><span id="marathonHR"></span></p>
+                </div>
+                <div class="calculator__result grid--3">
+                    <h2 class="calculator__type calculator__type--lt">Lactate Threshold Run</h2>
+                        <p class="calculator__pace"><span id="ltRunPace"></span></p>
+                        <p class="calculator__hr"><span id="ltRunHR"></span></p>
+                </div>
+            </div>
+        </section>
+	</main>
+	<Footer />
+    <script src="../scripts/calculators/pfitzinger.js"></script>
+</Layout>

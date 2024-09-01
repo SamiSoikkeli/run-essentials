@@ -1,0 +1,1432 @@
+[
+	{
+		"km_per_hour": "7.00kph",
+		"miles_per_hour": "4.35mph",
+		"mins_per_km": "8:34",
+		"mins_per_mile": "13:47",
+		"five_k": "00:42:51",
+		"ten_k": "01:25:42",
+		"half_marathon": "03:00:51",
+		"marathon": "06:01:42"
+	},
+	{
+		"km_per_hour": "7.10kph",
+		"miles_per_hour": "4.41mph",
+		"mins_per_km": "8:27",
+		"mins_per_mile": "13:36",
+		"five_k": "00:42:15",
+		"ten_k": "01:24:30",
+		"half_marathon": "02:58:18",
+		"marathon": "05:56:37"
+	},
+	{
+		"km_per_hour": "7.20kph",
+		"miles_per_hour": "4.47mph",
+		"mins_per_km": "8:20",
+		"mins_per_mile": "13:25",
+		"five_k": "00:41:40",
+		"ten_k": "01:23:20",
+		"half_marathon": "02:55:50",
+		"marathon": "05:51:40"
+	},
+	{
+		"km_per_hour": "7.30kph",
+		"miles_per_hour": "4.54mph",
+		"mins_per_km": "8:13",
+		"mins_per_mile": "13:14",
+		"five_k": "00:41:05",
+		"ten_k": "01:22:11",
+		"half_marathon": "02:53:25",
+		"marathon": "05:46:50"
+	},
+	{
+		"km_per_hour": "7.40kph",
+		"miles_per_hour": "4.60mph",
+		"mins_per_km": "8:07",
+		"mins_per_mile": "13:03",
+		"five_k": "00:40:32",
+		"ten_k": "01:21:04",
+		"half_marathon": "02:51:04",
+		"marathon": "05:42:09"
+	},
+	{
+		"km_per_hour": "7.50kph",
+		"miles_per_hour": "4.66mph",
+		"mins_per_km": "8:00",
+		"mins_per_mile": "12:52",
+		"five_k": "00:40:00",
+		"ten_k": "01:20:00",
+		"half_marathon": "02:48:48",
+		"marathon": "05:37:36"
+	},
+	{
+		"km_per_hour": "7.60kph",
+		"miles_per_hour": "4.72mph",
+		"mins_per_km": "7:53",
+		"mins_per_mile": "12:43",
+		"five_k": "00:39:28",
+		"ten_k": "01:18:56",
+		"half_marathon": "02:46:34",
+		"marathon": "05:33:09"
+	},
+	{
+		"km_per_hour": "7.70kph",
+		"miles_per_hour": "4.78mph",
+		"mins_per_km": "7:47",
+		"mins_per_mile": "12:32",
+		"five_k": "00:38:57",
+		"ten_k": "01:17:55",
+		"half_marathon": "02:44:24",
+		"marathon": "05:28:49"
+	},
+	{
+		"km_per_hour": "7.80kph",
+		"miles_per_hour": "4.85mph",
+		"mins_per_km": "7:41",
+		"mins_per_mile": "12:23",
+		"five_k": "00:38:27",
+		"ten_k": "01:16:55",
+		"half_marathon": "02:42:18",
+		"marathon": "05:24:36"
+	},
+	{
+		"km_per_hour": "7.90kph",
+		"miles_per_hour": "4.91mph",
+		"mins_per_km": "7:35",
+		"mins_per_mile": "12:13",
+		"five_k": "00:37:58",
+		"ten_k": "01:15:56",
+		"half_marathon": "02:40:15",
+		"marathon": "05:20:30"
+	},
+	{
+		"km_per_hour": "8.00kph",
+		"miles_per_hour": "4.97mph",
+		"mins_per_km": "7:30",
+		"mins_per_mile": "12:04",
+		"five_k": "00:37:30",
+		"ten_k": "01:15:00",
+		"half_marathon": "02:38:15",
+		"marathon": "05:16:30"
+	},
+	{
+		"km_per_hour": "8.10kph",
+		"miles_per_hour": "5.03mph",
+		"mins_per_km": "7:25",
+		"mins_per_mile": "11:55",
+		"five_k": "00:37:02",
+		"ten_k": "01:14:04",
+		"half_marathon": "02:36:17",
+		"marathon": "05:12:35"
+	},
+	{
+		"km_per_hour": "8.20kph",
+		"miles_per_hour": "5.10mph",
+		"mins_per_km": "7:19",
+		"mins_per_mile": "11:47",
+		"five_k": "00:36:35",
+		"ten_k": "01:13:10",
+		"half_marathon": "02:34:23",
+		"marathon": "05:08:46"
+	},
+	{
+		"km_per_hour": "8.30kph",
+		"miles_per_hour": "5.16mph",
+		"mins_per_km": "7:14",
+		"mins_per_mile": "11:38",
+		"five_k": "00:36:08",
+		"ten_k": "01:12:17",
+		"half_marathon": "02:32:31",
+		"marathon": "05:05:03"
+	},
+	{
+		"km_per_hour": "8.40kph",
+		"miles_per_hour": "5.22mph",
+		"mins_per_km": "7:08",
+		"mins_per_mile": "11:30",
+		"five_k": "00:35:42",
+		"ten_k": "01:11:25",
+		"half_marathon": "02:30:42",
+		"marathon": "05:01:25"
+	},
+	{
+		"km_per_hour": "8.50kph",
+		"miles_per_hour": "5.28mph",
+		"mins_per_km": "7:04",
+		"mins_per_mile": "11:22",
+		"five_k": "00:35:17",
+		"ten_k": "01:10:35",
+		"half_marathon": "02:28:56",
+		"marathon": "04:57:52"
+	},
+	{
+		"km_per_hour": "8.60kph",
+		"miles_per_hour": "5.34mph",
+		"mins_per_km": "6:59",
+		"mins_per_mile": "11:14",
+		"five_k": "00:34:53",
+		"ten_k": "01:09:46",
+		"half_marathon": "02:27:12",
+		"marathon": "04:54:25"
+	},
+	{
+		"km_per_hour": "8.70kph",
+		"miles_per_hour": "5.41mph",
+		"mins_per_km": "6:54",
+		"mins_per_mile": "11:06",
+		"five_k": "00:34:28",
+		"ten_k": "01:08:57",
+		"half_marathon": "02:25:31",
+		"marathon": "04:51:02"
+	},
+	{
+		"km_per_hour": "8.80kph",
+		"miles_per_hour": "5.47mph",
+		"mins_per_km": "6:49",
+		"mins_per_mile": "10:58",
+		"five_k": "00:34:05",
+		"ten_k": "01:08:10",
+		"half_marathon": "02:23:51",
+		"marathon": "04:47:43"
+	},
+	{
+		"km_per_hour": "8.90kph",
+		"miles_per_hour": "5.53mph",
+		"mins_per_km": "6:44",
+		"mins_per_mile": "10:51",
+		"five_k": "00:33:42",
+		"ten_k": "01:07:24",
+		"half_marathon": "02:22:14",
+		"marathon": "04:44:29"
+	},
+	{
+		"km_per_hour": "9.00kph",
+		"miles_per_hour": "5.59mph",
+		"mins_per_km": "6:40",
+		"mins_per_mile": "10:44",
+		"five_k": "00:33:20",
+		"ten_k": "01:06:40",
+		"half_marathon": "02:20:40",
+		"marathon": "04:41:20"
+	},
+	{
+		"km_per_hour": "9.10kph",
+		"miles_per_hour": "5.65mph",
+		"mins_per_km": "6:35",
+		"mins_per_mile": "10:37",
+		"five_k": "00:32:58",
+		"ten_k": "01:05:56",
+		"half_marathon": "02:19:07",
+		"marathon": "04:38:14"
+	},
+	{
+		"km_per_hour": "9.20kph",
+		"miles_per_hour": "5.72mph",
+		"mins_per_km": "6:31",
+		"mins_per_mile": "10:30",
+		"five_k": "00:32:36",
+		"ten_k": "01:05:13",
+		"half_marathon": "02:17:36",
+		"marathon": "04:35:13"
+	},
+	{
+		"km_per_hour": "9.30kph",
+		"miles_per_hour": "5.78mph",
+		"mins_per_km": "6:27",
+		"mins_per_mile": "10:23",
+		"five_k": "00:32:15",
+		"ten_k": "01:04:30",
+		"half_marathon": "02:16:07",
+		"marathon": "04:32:15"
+	},
+	{
+		"km_per_hour": "9.40kph",
+		"miles_per_hour": "5.84mph",
+		"mins_per_km": "6:23",
+		"mins_per_mile": "10:16",
+		"five_k": "00:31:54",
+		"ten_k": "01:03:49",
+		"half_marathon": "02:14:40",
+		"marathon": "04:29:21"
+	},
+	{
+		"km_per_hour": "9.50kph",
+		"miles_per_hour": "5.90mph",
+		"mins_per_km": "6:19",
+		"mins_per_mile": "10:10",
+		"five_k": "00:31:34",
+		"ten_k": "01:03:09",
+		"half_marathon": "02:13:15",
+		"marathon": "04:26:31"
+	},
+	{
+		"km_per_hour": "9.60kph",
+		"miles_per_hour": "5.97mph",
+		"mins_per_km": "6:15",
+		"mins_per_mile": "10:04",
+		"five_k": "00:31:15",
+		"ten_k": "01:02:30",
+		"half_marathon": "02:11:52",
+		"marathon": "04:23:45"
+	},
+	{
+		"km_per_hour": "9.70kph",
+		"miles_per_hour": "6.03mph",
+		"mins_per_km": "6:11",
+		"mins_per_mile": "9:57",
+		"five_k": "00:30:55",
+		"ten_k": "01:01:51",
+		"half_marathon": "02:10:30",
+		"marathon": "04:21:01"
+	},
+	{
+		"km_per_hour": "9.80kph",
+		"miles_per_hour": "6.09mph",
+		"mins_per_km": "6:07",
+		"mins_per_mile": "9:51",
+		"five_k": "00:30:36",
+		"ten_k": "01:01:13",
+		"half_marathon": "02:09:11",
+		"marathon": "04:18:22"
+	},
+	{
+		"km_per_hour": "9.90kph",
+		"miles_per_hour": "6.15mph",
+		"mins_per_km": "6:04",
+		"mins_per_mile": "9:45",
+		"five_k": "00:30:18",
+		"ten_k": "01:00:36",
+		"half_marathon": "02:07:52",
+		"marathon": "04:15:45"
+	},
+	{
+		"km_per_hour": "10.00kph",
+		"miles_per_hour": "6.21mph",
+		"mins_per_km": "6:00",
+		"mins_per_mile": "9:40",
+		"five_k": "00:30:00",
+		"ten_k": "01:00:00",
+		"half_marathon": "02:06:36",
+		"marathon": "04:13:12"
+	},
+	{
+		"km_per_hour": "10.10kph",
+		"miles_per_hour": "6.28mph",
+		"mins_per_km": "5:56",
+		"mins_per_mile": "9:34",
+		"five_k": "00:29:42",
+		"ten_k": "00:59:24",
+		"half_marathon": "02:05:20",
+		"marathon": "04:10:41"
+	},
+	{
+		"km_per_hour": "10.20kph",
+		"miles_per_hour": "6.34mph",
+		"mins_per_km": "5:53",
+		"mins_per_mile": "9:28",
+		"five_k": "00:29:24",
+		"ten_k": "00:58:49",
+		"half_marathon": "02:04:07",
+		"marathon": "04:08:14"
+	},
+	{
+		"km_per_hour": "10.30kph",
+		"miles_per_hour": "6.40mph",
+		"mins_per_km": "5:50",
+		"mins_per_mile": "9:22",
+		"five_k": "00:29:07",
+		"ten_k": "00:58:15",
+		"half_marathon": "02:02:54",
+		"marathon": "04:05:49"
+	},
+	{
+		"km_per_hour": "10.40kph",
+		"miles_per_hour": "6.46mph",
+		"mins_per_km": "5:46",
+		"mins_per_mile": "9:17",
+		"five_k": "00:28:50",
+		"ten_k": "00:57:41",
+		"half_marathon": "02:01:43",
+		"marathon": "04:03:27"
+	},
+	{
+		"km_per_hour": "10.50kph",
+		"miles_per_hour": "6.52mph",
+		"mins_per_km": "5:43",
+		"mins_per_mile": "9:12",
+		"five_k": "00:28:34",
+		"ten_k": "00:57:08",
+		"half_marathon": "02:00:34",
+		"marathon": "04:01:08"
+	},
+	{
+		"km_per_hour": "10.60kph",
+		"miles_per_hour": "6.59mph",
+		"mins_per_km": "5:40",
+		"mins_per_mile": "9:07",
+		"five_k": "00:28:18",
+		"ten_k": "00:56:36",
+		"half_marathon": "01:59:26",
+		"marathon": "03:58:52"
+	},
+	{
+		"km_per_hour": "10.70kph",
+		"miles_per_hour": "6.65mph",
+		"mins_per_km": "5:37",
+		"mins_per_mile": "9:01",
+		"five_k": "00:28:02",
+		"ten_k": "00:56:04",
+		"half_marathon": "01:58:19",
+		"marathon": "03:56:38"
+	},
+	{
+		"km_per_hour": "10.80kph",
+		"miles_per_hour": "6.71mph",
+		"mins_per_km": "5:34",
+		"mins_per_mile": "8:56",
+		"five_k": "00:27:46",
+		"ten_k": "00:55:33",
+		"half_marathon": "01:57:13",
+		"marathon": "03:54:26"
+	},
+	{
+		"km_per_hour": "10.90kph",
+		"miles_per_hour": "6.77mph",
+		"mins_per_km": "5:30",
+		"mins_per_mile": "8:52",
+		"five_k": "00:27:31",
+		"ten_k": "00:55:02",
+		"half_marathon": "01:56:08",
+		"marathon": "03:52:17"
+	},
+	{
+		"km_per_hour": "11.00kph",
+		"miles_per_hour": "6.84mph",
+		"mins_per_km": "5:27",
+		"mins_per_mile": "8:47",
+		"five_k": "00:27:16",
+		"ten_k": "00:54:32",
+		"half_marathon": "01:55:05",
+		"marathon": "03:50:10"
+	},
+	{
+		"km_per_hour": "11.10kph",
+		"miles_per_hour": "6.90mph",
+		"mins_per_km": "5:25",
+		"mins_per_mile": "8:42",
+		"five_k": "00:27:01",
+		"ten_k": "00:54:03",
+		"half_marathon": "01:54:03",
+		"marathon": "03:48:06"
+	},
+	{
+		"km_per_hour": "11.20kph",
+		"miles_per_hour": "6.96mph",
+		"mins_per_km": "5:22",
+		"mins_per_mile": "8:37",
+		"five_k": "00:26:47",
+		"ten_k": "00:53:34",
+		"half_marathon": "01:53:02",
+		"marathon": "03:46:04"
+	},
+	{
+		"km_per_hour": "11.30kph",
+		"miles_per_hour": "7.02mph",
+		"mins_per_km": "5:19",
+		"mins_per_mile": "8:33",
+		"five_k": "00:26:32",
+		"ten_k": "00:53:05",
+		"half_marathon": "01:52:02",
+		"marathon": "03:44:04"
+	},
+	{
+		"km_per_hour": "11.40kph",
+		"miles_per_hour": "7.08mph",
+		"mins_per_km": "5:16",
+		"mins_per_mile": "8:28",
+		"five_k": "00:26:18",
+		"ten_k": "00:52:37",
+		"half_marathon": "01:51:03",
+		"marathon": "03:42:06"
+	},
+	{
+		"km_per_hour": "11.50kph",
+		"miles_per_hour": "7.15mph",
+		"mins_per_km": "5:13",
+		"mins_per_mile": "8:24",
+		"five_k": "00:26:05",
+		"ten_k": "00:52:10",
+		"half_marathon": "01:50:05",
+		"marathon": "03:40:10"
+	},
+	{
+		"km_per_hour": "11.60kph",
+		"miles_per_hour": "7.21mph",
+		"mins_per_km": "5:10",
+		"mins_per_mile": "8:19",
+		"five_k": "00:25:51",
+		"ten_k": "00:51:43",
+		"half_marathon": "01:49:08",
+		"marathon": "03:38:16"
+	},
+	{
+		"km_per_hour": "11.70kph",
+		"miles_per_hour": "7.27mph",
+		"mins_per_km": "5:08",
+		"mins_per_mile": "8:15",
+		"five_k": "00:25:38",
+		"ten_k": "00:51:16",
+		"half_marathon": "01:48:12",
+		"marathon": "03:36:24"
+	},
+	{
+		"km_per_hour": "11.80kph",
+		"miles_per_hour": "7.33mph",
+		"mins_per_km": "5:05",
+		"mins_per_mile": "8:11",
+		"five_k": "00:25:25",
+		"ten_k": "00:50:50",
+		"half_marathon": "01:47:17",
+		"marathon": "03:34:34"
+	},
+	{
+		"km_per_hour": "11.90kph",
+		"miles_per_hour": "7.39mph",
+		"mins_per_km": "5:02",
+		"mins_per_mile": "8:07",
+		"five_k": "00:25:12",
+		"ten_k": "00:50:25",
+		"half_marathon": "01:46:23",
+		"marathon": "03:32:46"
+	},
+	{
+		"km_per_hour": "12.00kph",
+		"miles_per_hour": "7.46mph",
+		"mins_per_km": "5:00",
+		"mins_per_mile": "8:03",
+		"five_k": "00:25:00",
+		"ten_k": "00:50:00",
+		"half_marathon": "01:45:30",
+		"marathon": "03:31:00"
+	},
+	{
+		"km_per_hour": "12.10kph",
+		"miles_per_hour": "7.52mph",
+		"mins_per_km": "4:58",
+		"mins_per_mile": "7:59",
+		"five_k": "00:24:47",
+		"ten_k": "00:49:35",
+		"half_marathon": "01:44:37",
+		"marathon": "03:29:15"
+	},
+	{
+		"km_per_hour": "12.20kph",
+		"miles_per_hour": "7.58mph",
+		"mins_per_km": "4:55",
+		"mins_per_mile": "7:55",
+		"five_k": "00:24:35",
+		"ten_k": "00:49:10",
+		"half_marathon": "01:43:46",
+		"marathon": "03:27:32"
+	},
+	{
+		"km_per_hour": "12.30kph",
+		"miles_per_hour": "7.64mph",
+		"mins_per_km": "4:53",
+		"mins_per_mile": "7:51",
+		"five_k": "00:24:23",
+		"ten_k": "00:48:46",
+		"half_marathon": "01:42:55",
+		"marathon": "03:25:51"
+	},
+	{
+		"km_per_hour": "12.40kph",
+		"miles_per_hour": "7.71mph",
+		"mins_per_km": "4:50",
+		"mins_per_mile": "7:47",
+		"five_k": "00:24:11",
+		"ten_k": "00:48:23",
+		"half_marathon": "01:42:05",
+		"marathon": "03:24:11"
+	},
+	{
+		"km_per_hour": "12.50kph",
+		"miles_per_hour": "7.77mph",
+		"mins_per_km": "4:48",
+		"mins_per_mile": "7:43",
+		"five_k": "00:24:00",
+		"ten_k": "00:48:00",
+		"half_marathon": "01:41:16",
+		"marathon": "03:22:33"
+	},
+	{
+		"km_per_hour": "12.60kph",
+		"miles_per_hour": "7.83mph",
+		"mins_per_km": "4:46",
+		"mins_per_mile": "7:40",
+		"five_k": "00:23:48",
+		"ten_k": "00:47:37",
+		"half_marathon": "01:40:28",
+		"marathon": "03:20:57"
+	},
+	{
+		"km_per_hour": "12.70kph",
+		"miles_per_hour": "7.89mph",
+		"mins_per_km": "4:43",
+		"mins_per_mile": "7:36",
+		"five_k": "00:23:37",
+		"ten_k": "00:47:14",
+		"half_marathon": "01:39:41",
+		"marathon": "03:19:22"
+	},
+	{
+		"km_per_hour": "12.80kph",
+		"miles_per_hour": "7.95mph",
+		"mins_per_km": "4:41",
+		"mins_per_mile": "7:32",
+		"five_k": "00:23:26",
+		"ten_k": "00:46:52",
+		"half_marathon": "01:38:54",
+		"marathon": "03:17:48"
+	},
+	{
+		"km_per_hour": "12.90kph",
+		"miles_per_hour": "8.02mph",
+		"mins_per_km": "4:39",
+		"mins_per_mile": "7:29",
+		"five_k": "00:23:15",
+		"ten_k": "00:46:30",
+		"half_marathon": "01:38:08",
+		"marathon": "03:16:16"
+	},
+	{
+		"km_per_hour": "13.00kph",
+		"miles_per_hour": "8.08mph",
+		"mins_per_km": "4:37",
+		"mins_per_mile": "7:26",
+		"five_k": "00:23:04",
+		"ten_k": "00:46:09",
+		"half_marathon": "01:37:23",
+		"marathon": "03:14:46"
+	},
+	{
+		"km_per_hour": "13.10kph",
+		"miles_per_hour": "8.14mph",
+		"mins_per_km": "4:35",
+		"mins_per_mile": "7:22",
+		"five_k": "00:22:54",
+		"ten_k": "00:45:48",
+		"half_marathon": "01:36:38",
+		"marathon": "03:13:16"
+	},
+	{
+		"km_per_hour": "13.20kph",
+		"miles_per_hour": "8.20mph",
+		"mins_per_km": "4:33",
+		"mins_per_mile": "7:19",
+		"five_k": "00:22:43",
+		"ten_k": "00:45:27",
+		"half_marathon": "01:35:54",
+		"marathon": "03:11:49"
+	},
+	{
+		"km_per_hour": "13.30kph",
+		"miles_per_hour": "8.26mph",
+		"mins_per_km": "4:31",
+		"mins_per_mile": "7:16",
+		"five_k": "00:22:33",
+		"ten_k": "00:45:06",
+		"half_marathon": "01:35:11",
+		"marathon": "03:10:22"
+	},
+	{
+		"km_per_hour": "13.40kph",
+		"miles_per_hour": "8.33mph",
+		"mins_per_km": "4:29",
+		"mins_per_mile": "7:13",
+		"five_k": "00:22:23",
+		"ten_k": "00:44:46",
+		"half_marathon": "01:34:28",
+		"marathon": "03:08:57"
+	},
+	{
+		"km_per_hour": "13.50kph",
+		"miles_per_hour": "8.39mph",
+		"mins_per_km": "4:26",
+		"mins_per_mile": "7:09",
+		"five_k": "00:22:13",
+		"ten_k": "00:44:26",
+		"half_marathon": "01:33:46",
+		"marathon": "03:07:33"
+	},
+	{
+		"km_per_hour": "13.60kph",
+		"miles_per_hour": "8.45mph",
+		"mins_per_km": "4:25",
+		"mins_per_mile": "7:06",
+		"five_k": "00:22:03",
+		"ten_k": "00:44:07",
+		"half_marathon": "01:33:05",
+		"marathon": "03:06:10"
+	},
+	{
+		"km_per_hour": "13.70kph",
+		"miles_per_hour": "8.51mph",
+		"mins_per_km": "4:23",
+		"mins_per_mile": "7:03",
+		"five_k": "00:21:53",
+		"ten_k": "00:43:47",
+		"half_marathon": "01:32:24",
+		"marathon": "03:04:49"
+	},
+	{
+		"km_per_hour": "13.80kph",
+		"miles_per_hour": "8.57mph",
+		"mins_per_km": "4:21",
+		"mins_per_mile": "7:00",
+		"five_k": "00:21:44",
+		"ten_k": "00:43:28",
+		"half_marathon": "01:31:44",
+		"marathon": "03:03:28"
+	},
+	{
+		"km_per_hour": "13.90kph",
+		"miles_per_hour": "8.64mph",
+		"mins_per_km": "4:19",
+		"mins_per_mile": "6:57",
+		"five_k": "00:21:34",
+		"ten_k": "00:43:09",
+		"half_marathon": "01:31:04",
+		"marathon": "03:02:09"
+	},
+	{
+		"km_per_hour": "14.00kph",
+		"miles_per_hour": "8.70mph",
+		"mins_per_km": "4:17",
+		"mins_per_mile": "6:54",
+		"five_k": "00:21:25",
+		"ten_k": "00:42:51",
+		"half_marathon": "01:30:25",
+		"marathon": "03:00:51"
+	},
+	{
+		"km_per_hour": "14.10kph",
+		"miles_per_hour": "8.76mph",
+		"mins_per_km": "4:16",
+		"mins_per_mile": "6:51",
+		"five_k": "00:21:16",
+		"ten_k": "00:42:33",
+		"half_marathon": "01:29:47",
+		"marathon": "02:59:34"
+	},
+	{
+		"km_per_hour": "14.20kph",
+		"miles_per_hour": "8.82mph",
+		"mins_per_km": "4:14",
+		"mins_per_mile": "6:48",
+		"five_k": "00:21:07",
+		"ten_k": "00:42:15",
+		"half_marathon": "01:29:09",
+		"marathon": "02:58:18"
+	},
+	{
+		"km_per_hour": "14.30kph",
+		"miles_per_hour": "8.89mph",
+		"mins_per_km": "4:12",
+		"mins_per_mile": "6:45",
+		"five_k": "00:20:58",
+		"ten_k": "00:41:57",
+		"half_marathon": "01:28:31",
+		"marathon": "02:57:03"
+	},
+	{
+		"km_per_hour": "14.40kph",
+		"miles_per_hour": "8.95mph",
+		"mins_per_km": "4:10",
+		"mins_per_mile": "6:43",
+		"five_k": "00:20:50",
+		"ten_k": "00:41:40",
+		"half_marathon": "01:27:55",
+		"marathon": "02:55:50"
+	},
+	{
+		"km_per_hour": "14.50kph",
+		"miles_per_hour": "9.01mph",
+		"mins_per_km": "4:08",
+		"mins_per_mile": "6:40",
+		"five_k": "00:20:41",
+		"ten_k": "00:41:22",
+		"half_marathon": "01:27:18",
+		"marathon": "02:54:37"
+	},
+	{
+		"km_per_hour": "14.60kph",
+		"miles_per_hour": "9.07mph",
+		"mins_per_km": "4:07",
+		"mins_per_mile": "6:37",
+		"five_k": "00:20:32",
+		"ten_k": "00:41:05",
+		"half_marathon": "01:26:42",
+		"marathon": "02:53:25"
+	},
+	{
+		"km_per_hour": "14.70kph",
+		"miles_per_hour": "9.13mph",
+		"mins_per_km": "4:05",
+		"mins_per_mile": "6:34",
+		"five_k": "00:20:24",
+		"ten_k": "00:40:48",
+		"half_marathon": "01:26:07",
+		"marathon": "02:52:14"
+	},
+	{
+		"km_per_hour": "14.80kph",
+		"miles_per_hour": "9.20mph",
+		"mins_per_km": "4:03",
+		"mins_per_mile": "6:31",
+		"five_k": "00:20:16",
+		"ten_k": "00:40:32",
+		"half_marathon": "01:25:32",
+		"marathon": "02:51:04"
+	},
+	{
+		"km_per_hour": "14.90kph",
+		"miles_per_hour": "9.26mph",
+		"mins_per_km": "4:02",
+		"mins_per_mile": "6:29",
+		"five_k": "00:20:08",
+		"ten_k": "00:40:16",
+		"half_marathon": "01:24:57",
+		"marathon": "02:49:55"
+	},
+	{
+		"km_per_hour": "15.00kph",
+		"miles_per_hour": "9.32mph",
+		"mins_per_km": "4:00",
+		"mins_per_mile": "6:26",
+		"five_k": "00:20:00",
+		"ten_k": "00:40:00",
+		"half_marathon": "01:24:24",
+		"marathon": "02:48:48"
+	},
+	{
+		"km_per_hour": "15.10kph",
+		"miles_per_hour": "9.38mph",
+		"mins_per_km": "3:58",
+		"mins_per_mile": "6:23",
+		"five_k": "00:19:52",
+		"ten_k": "00:39:44",
+		"half_marathon": "01:23:50",
+		"marathon": "02:47:40"
+	},
+	{
+		"km_per_hour": "15.20kph",
+		"miles_per_hour": "9.44mph",
+		"mins_per_km": "3:57",
+		"mins_per_mile": "6:21",
+		"five_k": "00:19:44",
+		"ten_k": "00:39:28",
+		"half_marathon": "01:23:17",
+		"marathon": "02:46:34"
+	},
+	{
+		"km_per_hour": "15.30kph",
+		"miles_per_hour": "9.51mph",
+		"mins_per_km": "3:55",
+		"mins_per_mile": "6:19",
+		"five_k": "00:19:36",
+		"ten_k": "00:39:12",
+		"half_marathon": "01:22:44",
+		"marathon": "02:45:29"
+	},
+	{
+		"km_per_hour": "15.40kph",
+		"miles_per_hour": "9.57mph",
+		"mins_per_km": "3:54",
+		"mins_per_mile": "6:16",
+		"five_k": "00:19:28",
+		"ten_k": "00:38:57",
+		"half_marathon": "01:22:12",
+		"marathon": "02:44:24"
+	},
+	{
+		"km_per_hour": "15.50kph",
+		"miles_per_hour": "9.63mph",
+		"mins_per_km": "3:52",
+		"mins_per_mile": "6:14",
+		"five_k": "00:19:21",
+		"ten_k": "00:38:42",
+		"half_marathon": "01:21:40",
+		"marathon": "02:43:21"
+	},
+	{
+		"km_per_hour": "15.60kph",
+		"miles_per_hour": "9.69mph",
+		"mins_per_km": "3:51",
+		"mins_per_mile": "6:11",
+		"five_k": "00:19:13",
+		"ten_k": "00:38:27",
+		"half_marathon": "01:21:09",
+		"marathon": "02:42:18"
+	},
+	{
+		"km_per_hour": "15.70kph",
+		"miles_per_hour": "9.76mph",
+		"mins_per_km": "3:49",
+		"mins_per_mile": "6:09",
+		"five_k": "00:19:06",
+		"ten_k": "00:38:12",
+		"half_marathon": "01:20:38",
+		"marathon": "02:41:16"
+	},
+	{
+		"km_per_hour": "15.80kph",
+		"miles_per_hour": "9.82mph",
+		"mins_per_km": "3:48",
+		"mins_per_mile": "6:07",
+		"five_k": "00:18:59",
+		"ten_k": "00:37:58",
+		"half_marathon": "01:20:07",
+		"marathon": "02:40:15"
+	},
+	{
+		"km_per_hour": "15.90kph",
+		"miles_per_hour": "9.88mph",
+		"mins_per_km": "3:46",
+		"mins_per_mile": "6:04",
+		"five_k": "00:18:52",
+		"ten_k": "00:37:44",
+		"half_marathon": "01:19:37",
+		"marathon": "02:39:14"
+	},
+	{
+		"km_per_hour": "16.00kph",
+		"miles_per_hour": "9.94mph",
+		"mins_per_km": "3:45",
+		"mins_per_mile": "6:02",
+		"five_k": "00:18:45",
+		"ten_k": "00:37:30",
+		"half_marathon": "01:19:07",
+		"marathon": "02:38:15"
+	},
+	{
+		"km_per_hour": "16.10kph",
+		"miles_per_hour": "10.00mph",
+		"mins_per_km": "3:44",
+		"mins_per_mile": "6:00",
+		"five_k": "00:18:38",
+		"ten_k": "00:37:16",
+		"half_marathon": "01:18:38",
+		"marathon": "02:37:16"
+	},
+	{
+		"km_per_hour": "16.20kph",
+		"miles_per_hour": "10.07mph",
+		"mins_per_km": "3:42",
+		"mins_per_mile": "5:58",
+		"five_k": "00:18:31",
+		"ten_k": "00:37:02",
+		"half_marathon": "01:18:08",
+		"marathon": "02:36:17"
+	},
+	{
+		"km_per_hour": "16.30kph",
+		"miles_per_hour": "10.13mph",
+		"mins_per_km": "3:41",
+		"mins_per_mile": "5:55",
+		"five_k": "00:18:24",
+		"ten_k": "00:36:48",
+		"half_marathon": "01:17:40",
+		"marathon": "02:35:20"
+	},
+	{
+		"km_per_hour": "16.40kph",
+		"miles_per_hour": "10.19mph",
+		"mins_per_km": "3:40",
+		"mins_per_mile": "5:53",
+		"five_k": "00:18:17",
+		"ten_k": "00:36:35",
+		"half_marathon": "01:17:11",
+		"marathon": "02:34:23"
+	},
+	{
+		"km_per_hour": "16.50kph",
+		"miles_per_hour": "10.25mph",
+		"mins_per_km": "3:38",
+		"mins_per_mile": "5:51",
+		"five_k": "00:18:10",
+		"ten_k": "00:36:21",
+		"half_marathon": "01:16:43",
+		"marathon": "02:33:27"
+	},
+	{
+		"km_per_hour": "16.60kph",
+		"miles_per_hour": "10.31mph",
+		"mins_per_km": "3:37",
+		"mins_per_mile": "5:49",
+		"five_k": "00:18:04",
+		"ten_k": "00:36:08",
+		"half_marathon": "01:16:15",
+		"marathon": "02:32:31"
+	},
+	{
+		"km_per_hour": "16.70kph",
+		"miles_per_hour": "10.38mph",
+		"mins_per_km": "3:35",
+		"mins_per_mile": "5:47",
+		"five_k": "00:17:57",
+		"ten_k": "00:35:55",
+		"half_marathon": "01:15:48",
+		"marathon": "02:31:37"
+	},
+	{
+		"km_per_hour": "16.80kph",
+		"miles_per_hour": "10.44mph",
+		"mins_per_km": "3:34",
+		"mins_per_mile": "5:45",
+		"five_k": "00:17:51",
+		"ten_k": "00:35:42",
+		"half_marathon": "01:15:21",
+		"marathon": "02:30:42"
+	},
+	{
+		"km_per_hour": "16.90kph",
+		"miles_per_hour": "10.50mph",
+		"mins_per_km": "3:33",
+		"mins_per_mile": "5:43",
+		"five_k": "00:17:45",
+		"ten_k": "00:35:30",
+		"half_marathon": "01:14:54",
+		"marathon": "02:29:49"
+	},
+	{
+		"km_per_hour": "17.00kph",
+		"miles_per_hour": "10.56mph",
+		"mins_per_km": "3:32",
+		"mins_per_mile": "5:41",
+		"five_k": "00:17:38",
+		"ten_k": "00:35:17",
+		"half_marathon": "01:14:28",
+		"marathon": "02:28:56"
+	},
+	{
+		"km_per_hour": "17.10kph",
+		"miles_per_hour": "10.63mph",
+		"mins_per_km": "3:31",
+		"mins_per_mile": "5:39",
+		"five_k": "00:17:32",
+		"ten_k": "00:35:05",
+		"half_marathon": "01:14:02",
+		"marathon": "02:28:04"
+	},
+	{
+		"km_per_hour": "17.20kph",
+		"miles_per_hour": "10.69mph",
+		"mins_per_km": "3:29",
+		"mins_per_mile": "5:37",
+		"five_k": "00:17:26",
+		"ten_k": "00:34:53",
+		"half_marathon": "01:13:36",
+		"marathon": "02:27:12"
+	},
+	{
+		"km_per_hour": "17.30kph",
+		"miles_per_hour": "10.75mph",
+		"mins_per_km": "3:28",
+		"mins_per_mile": "5:35",
+		"five_k": "00:17:20",
+		"ten_k": "00:34:40",
+		"half_marathon": "01:13:10",
+		"marathon": "02:26:21"
+	},
+	{
+		"km_per_hour": "17.40kph",
+		"miles_per_hour": "10.81mph",
+		"mins_per_km": "3:27",
+		"mins_per_mile": "5:33",
+		"five_k": "00:17:14",
+		"ten_k": "00:34:28",
+		"half_marathon": "01:12:45",
+		"marathon": "02:25:31"
+	},
+	{
+		"km_per_hour": "17.50kph",
+		"miles_per_hour": "10.87mph",
+		"mins_per_km": "3:26",
+		"mins_per_mile": "5:31",
+		"five_k": "00:17:08",
+		"ten_k": "00:34:17",
+		"half_marathon": "01:12:20",
+		"marathon": "02:24:41"
+	},
+	{
+		"km_per_hour": "17.60kph",
+		"miles_per_hour": "10.94mph",
+		"mins_per_km": "3:25",
+		"mins_per_mile": "5:29",
+		"five_k": "00:17:02",
+		"ten_k": "00:34:05",
+		"half_marathon": "01:11:55",
+		"marathon": "02:23:51"
+	},
+	{
+		"km_per_hour": "17.70kph",
+		"miles_per_hour": "11.00mph",
+		"mins_per_km": "3:23",
+		"mins_per_mile": "5:28",
+		"five_k": "00:16:56",
+		"ten_k": "00:33:53",
+		"half_marathon": "01:11:31",
+		"marathon": "02:23:03"
+	},
+	{
+		"km_per_hour": "17.80kph",
+		"miles_per_hour": "11.06mph",
+		"mins_per_km": "3:22",
+		"mins_per_mile": "5:25",
+		"five_k": "00:16:51",
+		"ten_k": "00:33:42",
+		"half_marathon": "01:11:07",
+		"marathon": "02:22:14"
+	},
+	{
+		"km_per_hour": "17.90kph",
+		"miles_per_hour": "11.12mph",
+		"mins_per_km": "3:21",
+		"mins_per_mile": "5:23",
+		"five_k": "00:16:45",
+		"ten_k": "00:33:31",
+		"half_marathon": "01:10:43",
+		"marathon": "02:21:27"
+	},
+	{
+		"km_per_hour": "18.00kph",
+		"miles_per_hour": "11.18mph",
+		"mins_per_km": "3:20",
+		"mins_per_mile": "5:22",
+		"five_k": "00:16:40",
+		"ten_k": "00:33:20",
+		"half_marathon": "01:10:20",
+		"marathon": "02:20:40"
+	},
+	{
+		"km_per_hour": "18.10kph",
+		"miles_per_hour": "11.25mph",
+		"mins_per_km": "3:19",
+		"mins_per_mile": "5:20",
+		"five_k": "00:16:34",
+		"ten_k": "00:33:08",
+		"half_marathon": "01:09:56",
+		"marathon": "02:19:53"
+	},
+	{
+		"km_per_hour": "18.20kph",
+		"miles_per_hour": "11.31mph",
+		"mins_per_km": "3:18",
+		"mins_per_mile": "5:19",
+		"five_k": "00:16:29",
+		"ten_k": "00:32:58",
+		"half_marathon": "01:09:33",
+		"marathon": "02:19:07"
+	},
+	{
+		"km_per_hour": "18.30kph",
+		"miles_per_hour": "11.37mph",
+		"mins_per_km": "3:17",
+		"mins_per_mile": "5:17",
+		"five_k": "00:16:23",
+		"ten_k": "00:32:47",
+		"half_marathon": "01:09:10",
+		"marathon": "02:18:21"
+	},
+	{
+		"km_per_hour": "18.40kph",
+		"miles_per_hour": "11.43mph",
+		"mins_per_km": "3:16",
+		"mins_per_mile": "5:15",
+		"five_k": "00:16:18",
+		"ten_k": "00:32:36",
+		"half_marathon": "01:08:48",
+		"marathon": "02:17:36"
+	},
+	{
+		"km_per_hour": "18.50kph",
+		"miles_per_hour": "11.50mph",
+		"mins_per_km": "3:14",
+		"mins_per_mile": "5:13",
+		"five_k": "00:16:12",
+		"ten_k": "00:32:25",
+		"half_marathon": "01:08:25",
+		"marathon": "02:16:51"
+	},
+	{
+		"km_per_hour": "18.60kph",
+		"miles_per_hour": "11.56mph",
+		"mins_per_km": "3:14",
+		"mins_per_mile": "5:11",
+		"five_k": "00:16:07",
+		"ten_k": "00:32:15",
+		"half_marathon": "01:08:03",
+		"marathon": "02:16:07"
+	},
+	{
+		"km_per_hour": "18.70kph",
+		"miles_per_hour": "11.62mph",
+		"mins_per_km": "3:13",
+		"mins_per_mile": "5:10",
+		"five_k": "00:16:02",
+		"ten_k": "00:32:05",
+		"half_marathon": "01:07:42",
+		"marathon": "02:15:24"
+	},
+	{
+		"km_per_hour": "18.80kph",
+		"miles_per_hour": "11.68mph",
+		"mins_per_km": "3:11",
+		"mins_per_mile": "5:08",
+		"five_k": "00:15:57",
+		"ten_k": "00:31:54",
+		"half_marathon": "01:07:20",
+		"marathon": "02:14:40"
+	},
+	{
+		"km_per_hour": "18.90kph",
+		"miles_per_hour": "11.74mph",
+		"mins_per_km": "3:10",
+		"mins_per_mile": "5:07",
+		"five_k": "00:15:52",
+		"ten_k": "00:31:44",
+		"half_marathon": "01:06:59",
+		"marathon": "02:13:58"
+	},
+	{
+		"km_per_hour": "19.00kph",
+		"miles_per_hour": "11.81mph",
+		"mins_per_km": "3:10",
+		"mins_per_mile": "5:05",
+		"five_k": "00:15:47",
+		"ten_k": "00:31:34",
+		"half_marathon": "01:06:37",
+		"marathon": "02:13:15"
+	},
+	{
+		"km_per_hour": "19.10kph",
+		"miles_per_hour": "11.87mph",
+		"mins_per_km": "3:08",
+		"mins_per_mile": "5:04",
+		"five_k": "00:15:42",
+		"ten_k": "00:31:24",
+		"half_marathon": "01:06:16",
+		"marathon": "02:12:33"
+	},
+	{
+		"km_per_hour": "19.20kph",
+		"miles_per_hour": "11.93mph",
+		"mins_per_km": "3:08",
+		"mins_per_mile": "5:02",
+		"five_k": "00:15:37",
+		"ten_k": "00:31:14",
+		"half_marathon": "01:05:56",
+		"marathon": "02:11:52"
+	},
+	{
+		"km_per_hour": "19.30kph",
+		"miles_per_hour": "11.99mph",
+		"mins_per_km": "3:07",
+		"mins_per_mile": "5:00",
+		"five_k": "00:15:32",
+		"ten_k": "00:31:05",
+		"half_marathon": "01:05:35",
+		"marathon": "02:11:11"
+	},
+	{
+		"km_per_hour": "19.40kph",
+		"miles_per_hour": "12.05mph",
+		"mins_per_km": "3:05",
+		"mins_per_mile": "4:59",
+		"five_k": "00:15:27",
+		"ten_k": "00:30:55",
+		"half_marathon": "01:05:15",
+		"marathon": "02:10:30"
+	},
+	{
+		"km_per_hour": "19.50kph",
+		"miles_per_hour": "12.12mph",
+		"mins_per_km": "3:05",
+		"mins_per_mile": "4:57",
+		"five_k": "00:15:23",
+		"ten_k": "00:30:46",
+		"half_marathon": "01:04:55",
+		"marathon": "02:09:50"
+	},
+	{
+		"km_per_hour": "19.60kph",
+		"miles_per_hour": "12.18mph",
+		"mins_per_km": "3:04",
+		"mins_per_mile": "4:56",
+		"five_k": "00:15:18",
+		"ten_k": "00:30:36",
+		"half_marathon": "01:04:35",
+		"marathon": "02:09:11"
+	},
+	{
+		"km_per_hour": "19.70kph",
+		"miles_per_hour": "12.24mph",
+		"mins_per_km": "3:03",
+		"mins_per_mile": "4:54",
+		"five_k": "00:15:13",
+		"ten_k": "00:30:27",
+		"half_marathon": "01:04:15",
+		"marathon": "02:08:31"
+	},
+	{
+		"km_per_hour": "19.80kph",
+		"miles_per_hour": "12.30mph",
+		"mins_per_km": "3:02",
+		"mins_per_mile": "4:53",
+		"five_k": "00:15:09",
+		"ten_k": "00:30:18",
+		"half_marathon": "01:03:56",
+		"marathon": "02:07:52"
+	},
+	{
+		"km_per_hour": "19.90kph",
+		"miles_per_hour": "12.37mph",
+		"mins_per_km": "3:01",
+		"mins_per_mile": "4:51",
+		"five_k": "00:15:04",
+		"ten_k": "00:30:09",
+		"half_marathon": "01:03:37",
+		"marathon": "02:07:14"
+	},
+	{
+		"km_per_hour": "20.00kph",
+		"miles_per_hour": "12.43mph",
+		"mins_per_km": "3:00",
+		"mins_per_mile": "4:50",
+		"five_k": "00:14:59",
+		"ten_k": "00:29:59",
+		"half_marathon": "01:03:17",
+		"marathon": "02:06:35"
+	},
+	{
+		"km_per_hour": "20.10kph",
+		"miles_per_hour": "12.49mph",
+		"mins_per_km": "2:59",
+		"mins_per_mile": "4:48",
+		"five_k": "00:14:55",
+		"ten_k": "00:29:51",
+		"half_marathon": "01:02:59",
+		"marathon": "02:05:58"
+	},
+	{
+		"km_per_hour": "20.20kph",
+		"miles_per_hour": "12.55mph",
+		"mins_per_km": "2:58",
+		"mins_per_mile": "4:47",
+		"five_k": "00:14:51",
+		"ten_k": "00:29:42",
+		"half_marathon": "01:02:40",
+		"marathon": "02:05:20"
+	},
+	{
+		"km_per_hour": "20.30kph",
+		"miles_per_hour": "12.61mph",
+		"mins_per_km": "2:58",
+		"mins_per_mile": "4:46",
+		"five_k": "00:14:46",
+		"ten_k": "00:29:33",
+		"half_marathon": "01:02:21",
+		"marathon": "02:04:43"
+	},
+	{
+		"km_per_hour": "20.40kph",
+		"miles_per_hour": "12.68mph",
+		"mins_per_km": "2:56",
+		"mins_per_mile": "4:44",
+		"five_k": "00:14:42",
+		"ten_k": "00:29:24",
+		"half_marathon": "01:02:03",
+		"marathon": "02:04:07"
+	},
+	{
+		"km_per_hour": "20.50kph",
+		"miles_per_hour": "12.74mph",
+		"mins_per_km": "2:56",
+		"mins_per_mile": "4:43",
+		"five_k": "00:14:38",
+		"ten_k": "00:29:16",
+		"half_marathon": "01:01:45",
+		"marathon": "02:03:30"
+	},
+	{
+		"km_per_hour": "20.60kph",
+		"miles_per_hour": "12.80mph",
+		"mins_per_km": "2:55",
+		"mins_per_mile": "4:41",
+		"five_k": "00:14:33",
+		"ten_k": "00:29:07",
+		"half_marathon": "01:01:27",
+		"marathon": "02:02:54"
+	},
+	{
+		"km_per_hour": "20.70kph",
+		"miles_per_hour": "12.86mph",
+		"mins_per_km": "2:54",
+		"mins_per_mile": "4:40",
+		"five_k": "00:14:29",
+		"ten_k": "00:28:59",
+		"half_marathon": "01:01:09",
+		"marathon": "02:02:19"
+	},
+	{
+		"km_per_hour": "20.80kph",
+		"miles_per_hour": "12.92mph",
+		"mins_per_km": "2:53",
+		"mins_per_mile": "4:38",
+		"five_k": "00:14:25",
+		"ten_k": "00:28:50",
+		"half_marathon": "01:00:51",
+		"marathon": "02:01:43"
+	},
+	{
+		"km_per_hour": "20.90kph",
+		"miles_per_hour": "12.99mph",
+		"mins_per_km": "2:52",
+		"mins_per_mile": "4:37",
+		"five_k": "00:14:21",
+		"ten_k": "00:28:42",
+		"half_marathon": "01:00:34",
+		"marathon": "02:01:08"
+	},
+	{
+		"km_per_hour": "21.00kph",
+		"miles_per_hour": "13.05mph",
+		"mins_per_km": "2:52",
+		"mins_per_mile": "4:36",
+		"five_k": "00:14:17",
+		"ten_k": "00:28:34",
+		"half_marathon": "01:00:17",
+		"marathon": "02:00:34"
+	},
+	{
+		"km_per_hour": "21.10kph",
+		"miles_per_hour": "13.11mph",
+		"mins_per_km": "2:50",
+		"mins_per_mile": "4:35",
+		"five_k": "00:14:13",
+		"ten_k": "00:28:26",
+		"half_marathon": "00:59:59",
+		"marathon": "01:59:59"
+	},
+	{
+		"km_per_hour": "21.20kph",
+		"miles_per_hour": "13.17mph",
+		"mins_per_km": "2:50",
+		"mins_per_mile": "4:33",
+		"five_k": "00:14:09",
+		"ten_k": "00:28:18",
+		"half_marathon": "00:59:43",
+		"marathon": "01:59:26"
+	}
+]

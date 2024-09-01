@@ -1,0 +1,57 @@
+---
+import "../styles/components/footer.css";
+import arrowRight from "../assets/arrow-right-b.svg?raw";
+---
+
+<footer class="footer">
+    <div class="footer__item flex-between">
+        <span class="footer__number">1</span>
+        <div class="footer__track footer__track--one">
+            <a class="footer__cta" href="/">
+                <span class="footer__link">Home</span>
+                <Fragment class="footer__arrow" set:html={arrowRight} />
+            </a>
+        </div>
+    </div>
+    <div class="footer__item flex-between">
+        <span class="footer__number">2</span>
+        <div class="footer__track footer__track--two">
+            <a class="footer__cta" href="/pace-conversion">
+                <span class="footer__link">Pace Conversion</span>
+                <Fragment class="footer__arrow" set:html={arrowRight} />
+            </a>
+        </div>
+    </div>
+    <div class="footer__item flex-between">
+        <span class="footer__number">3</span>
+        <div class="footer__track footer__track--three">
+            <a class="footer__cta" href="/pfitzinger-calculator">
+                <span class="footer__link">Calculators <sup>(1)</sup></span>
+                <Fragment class="footer__arrow" set:html={arrowRight} />
+            </a>
+        </div>
+        
+    </div>
+    <div class="footer__item flex-between">
+        <span class="footer__number">4</span>
+        <div class="footer__track footer__track--four">
+            <a class="footer__cta" href="/directory">
+                <span class="footer__link">Directory</span>
+                <Fragment class="footer__arrow" set:html={arrowRight} />
+            </a>
+        </div>
+    </div>
+    <div class="footer__item flex-between">
+        <div class="footer__track footer__track--five"></div>
+    </div>
+    <div class="footer__info grid gutter">
+        <div class="footer__credit">
+            <p class="footer__title">Design & code by:</p>
+            <a class="footer__data" href="https://heyimsami.com" target="_blank">heyimsami</a>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__title">©</p>
+            <span>2024</span>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,41 @@
+---
+import { Image } from 'astro:assets';
+import logo from "../assets/run-essentials-logo.png";
+import "../styles/components/header.css";
+---
+
+<div id="js-menu" class="menu__container">
+    <ul class="menu__list f-400-2">
+        <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="/pace-conversion">Pace Conversion</a></li>
+        <li class="menu__item"><a class="menu__link" href="/pfitzinger-calculator">Calculators</a></li>
+        <li>
+            <ul class="menu__list menu__list--inner">
+                <li class="menu__item menu__item--inner"><a class="menu__link" href="/pfitzinger-calculator">Pfitzinger</a></li>
+                <li class="menu__item menu__item--inner"><span class="menu__link disabled">TBA</span></li>
+                <li class="menu__item menu__item--inner"><span class="menu__link disabled">TBA</span></li>
+            </ul>
+        </li>
+        <li class="menu__item"><a class="menu__link" href="/directory">Directory</a></li>
+    </ul>
+</div>
+
+<div class="menu__overlay"></div>
+
+<header class="header grid">
+    <a class="header__logo mbm-dif" href="/">
+        <Image src={logo} alt="Run Essentials logo"/>
+    </a>
+    <nav class="header__nav hide-mobile">
+        <a class="header__link" href="/pace-conversion">Pace Conversion,</a>
+        <a class="header__link" href="/pfitzinger-calculator">Calculators<sup>(1)</sup></a>
+    </nav>
+    <div class="header__utils">
+        <button aria-label="Color theme toggle" title="Color theme toggle" id="js-theme-toggle" class="header__theme"><span aria-hidden="true"></span></button>
+        <button aria-label="Menu toggle" title="Menu toggle" id="js-hamburger" class="header__hamburger">
+            <span aria-hidden="true" class="header__line header__line--vertical"></span>
+            <span aria-hidden="true" class="header__line header__line--horizontal"></span>
+        </button>
+    </div>
+</header>
+
